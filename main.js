@@ -60,7 +60,7 @@ function updateProduct(index){
     prductName.value = arrayOfProducts[index].name;
     productPrice.value =arrayOfProducts[index].price;
     productCategory.value = arrayOfProducts[index].category;
-    productDescription.value = arrayOfProducts[index].desc;
+    productDescription.value = arrayOfProducts[index].describtion;
     mainIndex=index
     mainBtm.innerHTML="Update"
 }
